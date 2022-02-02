@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,6 +23,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +36,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+.img {
+  width: 458px;
+  height: 364px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.imge {
+  width: 458px;
+  height: 364px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.leader{
+  margin-top: 50px;
+}
+
+body, html {
+  height: 100%;
+}
+.bg {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).webp");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
